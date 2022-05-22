@@ -49,9 +49,6 @@ Matrix::Matrix (const Matrix &a){
 }
 
 
-Matrix::~Matrix(){
-
-}
 
 
 Matrix Matrix::operator+ (const Matrix &a){
@@ -355,6 +352,8 @@ bool Matrix::operator== (const Matrix &a){
     }
     return ans;
 }
+
+
 
 
 
